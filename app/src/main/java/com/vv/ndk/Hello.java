@@ -6,7 +6,8 @@ package com.vv.ndk;
 
 public class Hello {
     static {
-        System.loadLibrary("hello");
+//        System.loadLibrary("hello");
+        System.loadLibrary("one");
     }
     public static native String sayHello();
 }
