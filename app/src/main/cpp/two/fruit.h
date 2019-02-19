@@ -7,7 +7,9 @@
 
 
 class fruit {
-public:int getAppleColor();
+public:
+    fruit(int pp);
+    int getAppleColor();
 };
 
 

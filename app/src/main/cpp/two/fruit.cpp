@@ -6,6 +6,13 @@
 #include "../one/apple.h"
 
 int fruit::getAppleColor() {
-    apple *apple = new apple();
-    return apple->getColor();
+//    apple *apple = new class apple();
+//    return apple->getColor();
+    return 33;
 }
+
+fruit::fruit(int pp) {}
+
+//fruit::fruit() {
+//
+//}
