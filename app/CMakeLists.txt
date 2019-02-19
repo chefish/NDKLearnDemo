@@ -8,7 +8,7 @@ add_library(hello
 find_library(log-lib log )
 target_link_libraries(hello ${log-lib} )
 
-ADD_SUBDIRECTORY(src/main/cpp/one)
+#ADD_SUBDIRECTORY(src/main/cpp/one)
 ADD_SUBDIRECTORY(src/main/cpp/two)
 
 

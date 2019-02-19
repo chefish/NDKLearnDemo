@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(Hello.sayHello());
+//        tv.setText(Hello.sayHello());
 
         textView=findViewById(R.id.textview);
-        textView.setText(Hi.sayHi());
+//        textView.setText(Hi.sayHi());
         textView.setText(Hey.sayHey());
     }
 }
