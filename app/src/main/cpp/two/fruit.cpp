@@ -4,11 +4,11 @@
 
 #include "fruit.h"
 #include "../one/apple.h"
+//#include "../one/apple.h"
 
 int fruit::getAppleColor() {
-//    apple *apple = new class apple();
-//    return apple->getColor();
-    return 33;
+    apple *apple = new class apple();
+    return apple->getColor();
 }
 
 fruit::fruit(int pp) {}

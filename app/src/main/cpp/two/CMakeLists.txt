@@ -6,4 +6,4 @@ add_library(two SHARED two.cpp
                         Hey.cpp
                         fruit.cpp)
 
-target_link_libraries(two ${log-lib} )
+target_link_libraries(two ${log-lib} one)
