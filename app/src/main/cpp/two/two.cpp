@@ -3,3 +3,4 @@
 //
 
 #include "com_vv_ndk_Hello.h"
+#include "apple.h"
