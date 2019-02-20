@@ -11,10 +11,10 @@ add_library(lib_one SHARED IMPORTED)
 set_target_properties(lib_one PROPERTIES IMPORTED_LOCATION
     ${PROJECT_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}/libone.so)
 
-add_library(two SHARED two.cpp
-                        Hey.cpp
-                        fruit.cpp)
+add_library(three SHARED feet.cpp
+                        Hoho.cpp
+                        )
 #加入include目录
-target_include_directories(two PRIVATE ${PROJECT_SOURCE_DIR}/../distribution/one/include)
+target_include_directories(three PRIVATE ${PROJECT_SOURCE_DIR}/../distribution/one/include)
 
-target_link_libraries(two ${log-lib} lib_one)
+target_link_libraries(three ${log-lib} lib_one)
