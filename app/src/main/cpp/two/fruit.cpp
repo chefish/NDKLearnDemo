@@ -3,8 +3,7 @@
 //
 
 #include "fruit.h"
-#include "../one/apple.h"
-//#include "../one/apple.h"
+#include "apple.h"
 
 int fruit::getAppleColor() {
     apple *apple = new class apple();
