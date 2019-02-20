@@ -12,7 +12,7 @@ extern "C" {
  * Method:    sayHello
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_vv_ndk_Hey_sayHoho
+JNIEXPORT jstring JNICALL Java_com_vv_ndk_Hoho_sayHoho
   (JNIEnv *, jclass);
 
 #ifdef __cplusplus

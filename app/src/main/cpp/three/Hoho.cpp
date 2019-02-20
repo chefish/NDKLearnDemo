@@ -8,7 +8,7 @@
 using namespace std;
 
 
-JNIEXPORT jstring JNICALL Java_com_vv_ndk_Hey_sayHoho(JNIEnv *env, jclass jclass1){
+JNIEXPORT jstring JNICALL Java_com_vv_ndk_Hoho_sayHoho(JNIEnv *env, jclass jclass1){
     feet *feet = new class feet(20);
 
     int xx = feet->getAppleColor();
